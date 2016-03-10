@@ -24,7 +24,7 @@ body a{
 }
 .logo{
 	float: left;
-	margin-top: .5em;
+	margin-top: .9em;
 }
 .logo a{
 	text-decoration:none;
@@ -45,7 +45,7 @@ body a{
 	float: left;
 }
 .top-nav ul li a{
-	font-size: 1.1em;
+	font-size: 1.3em;
 	text-decoration: none;
 	color: #fff;
 	font-weight: 400;
@@ -186,6 +186,7 @@ ul.wmuSliderPagination{
 	color:#fff;
 	text-transform:uppercase;
 	line-height: 1.4em;
+        text-shadow:  2px 2px 4px black;
 	
 }
 .welcome_box{
@@ -198,9 +199,10 @@ ul.wmuSliderPagination{
 .banner-matter p{
 	margin:0;
 	font-size:2.3em;
-	color:#fff;
+	color:palegoldenrod;
 	width:81%;
 	text-transform:uppercase;
+        text-shadow:  1px 1px 2px #000;
 }
 .banner-matter  p span{
 	width: 200px;
@@ -216,7 +218,8 @@ ul.wmuSliderPagination{
 .banner-matter a{
 	text-decoration:none;
 	font-size:1.5em;
-	color:#e84c3d;
+        color:palegoldenrod;
+        text-shadow:  1px 1px 2px #000;
 }
 a.down {
 	position: absolute;
@@ -247,10 +250,11 @@ span.arrow{
 }
 .hello p{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1.1em;
 	line-height: 1.6em;
-	color: #959595;
-	margin: 0.5em 0 3em;
+        color: #333333;
+	margin: 0.5em 0 1em;
+        text-align: justify;
 }
 .in-btns a{
 	display:inline-block;
@@ -327,7 +331,7 @@ ul.in-social li a span:hover{
 .services{
 	background:#eee;
 	text-align:center;
-	padding:3em 0;
+	padding:8em 0;
 }
 .services-top h3,.services-grid h4{
 	margin:0;
@@ -335,13 +339,13 @@ ul.in-social li a span:hover{
 	color:#494f55;
 }
 .services-top h3 span{
-	border-bottom:3px solid #fff;
+	border-bottom:3px solid brown;
 	padding:7px 0;
 }
 .services-top p,.services-grid p{
 	margin:0 auto;
 	font-size:1.1em;
-	color:#959595;
+	color:#000;
 	font-family: 'Open Sans', sans-serif;
 	width:50%;
 }
@@ -349,8 +353,10 @@ ul.in-social li a span:hover{
 	margin:1.5em auto 0;
 }
 .services-grid h4{
-	font-size:1.7em;
-	margin:1em 0;
+	font-size:1.3em;
+	margin:.3em 0;
+        text-align: left;
+        color: midnightblue;
 }
 .services-grid p{
 	width:80%;
@@ -376,7 +382,6 @@ h5.happy  a:hover{
 .work{
 	background: url(../images/back.jpg) 0px 0px;
 	width: 100%;
-	min-height: 1300px;
 	display:block;
 	padding:5em 0;	
 }
@@ -401,8 +406,8 @@ h5.happy  a:hover{
 }
 .web h6{
 	margin: 7px 0;
-	font-size: 1.8em;
-	color: #494f55;
+	font-size: 1.2em;
+	color: brown;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
@@ -529,7 +534,7 @@ a.more:hover{
 .about-me{
 	background:#eee;
 	text-align:center;
-	padding:5em 0;
+	padding:8em 0;
 }
 .about h3{
 	margin:0 0 1.5em;
@@ -547,8 +552,8 @@ a.more:hover{
 	color: #494f55;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.6em;
-	width: 75%;
-	text-align: left;
+	width: 100%;
+	text-align: justify;
 }
 /*----*/
 .circliful {
@@ -709,12 +714,17 @@ span.circles-number,span.circles-text {
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
 }
-.in-on input[type="text"],.send-in input[type="submit"] {
-	width: 90%;
+
+.in-on h4{
+	color:#fff;
+}
+
+.in-on input[type="text"],input[type="email"],.send-in input[type="submit"] {
+	width: 100%;
 	padding:0.1em 0;
 	outline: none;
-	color: #ccc;
-	font-size: 2em;
+	color: gold;
+	font-size: 1.3em;
 	background:none;
 	border-bottom:2px solid #fff;
 	border-top:none;
@@ -918,13 +928,14 @@ span.arrow {
 	bottom: 2em;
 }
 .services-top p, .services-grid p {
-	width: 64%;
+	width: 100%;
 }
-.services-bottom {
+.services-bottom{
 	padding: 3em 0;
 }
 .services-grid {
 	padding: 0 0 1em;
+        color:#000;
 }
 .work-grid {
 	width: 31.66%;
@@ -1341,4 +1352,9 @@ ul.social-ic-icons{
 .welcome_box, .banner-matter {
 	padding: 2em 0 0;
 }
+
+}
+
+#portfolio{
+	padding:8em 0;
 }
