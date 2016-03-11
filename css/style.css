@@ -602,7 +602,7 @@ span.circles-number,span.circles-text {
 	width:100%;
 	background-size: cover;
 	min-height: 410px;
-	padding: 5em 0 0 0;
+	padding: 7em 0 0 0;
 	text-align:center;
 }
 .clients h3{
@@ -616,20 +616,21 @@ span.circles-number,span.circles-text {
 	font-weight:600;
 }
 .item-bottom {
-	padding: 4em 0;
+	padding: 3em 0;
 }
 .item-right p{
-	color: #eee;
-	font-size: 1.1em;
+	color: #fff;
+        text-shadow: 2px 2px 4px black;
+	font-size: 1.4em;
 	line-height: 1.5em;
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 	padding:0 0 2em;
 	font-family: 'Open Sans', sans-serif;
 }
 .item-right span{
 	color:#fff;
-	font-size:1.3em;
+	font-size:1.7em;
 	text-align: right;
 	display: block;	
 }
@@ -691,7 +692,7 @@ span.circles-number,span.circles-text {
 /*--contact--*/
 .contact{
 	background:#393e42;
-	padding:5em 0 3em;
+	padding:7em 0 3em;
 }
 .contact-in{
 	padding:2em 0;

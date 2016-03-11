@@ -134,6 +134,7 @@
                 <div class="banner-matter">
                     <p>Contact us at <span> </span></p>
                     <a href="#"> ttchld@gmail.com, info@teamfreelancers.com<br>Mobile: (+91) 9568873015</a>
+                    <a href="#clients" class="scroll" style="color:#ffff00"><br><br>Check what our Clients say about us</a>
                 </div>
                 <div class='clearfix'></div>
                 <a href="#hello" class="scroll down"><img src="images/arr.png" alt="" /></a>
@@ -376,7 +377,7 @@
                     </div>
                 </div>
             </div>
-            <div class="clients" >
+            <div class="clients" id="clients">
                 <div class="container">
                     <h3>What our client thinks about us </span></h3>
                     <!---->
@@ -427,7 +428,7 @@
             <!----contact-->
             <div class="contact" id="contact">
                 <div class="container">
-                    <h3>CONTACT</h3>
+                    <h3>CONTACT US</h3>
                     <div class="contact-in">
                         <div class="col-md-6 in-on">																								
                             <small>to</small>
