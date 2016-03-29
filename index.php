@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TeamFreelancers</title>
+        <title>Team Freelancers, website developing, SEO, Bulk SMS</title>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
         <!-- Custom Theme files -->
         <!--theme-style-->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -14,6 +14,9 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
         <!--//theme-style-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="Team Freelancers, website developing, maintenance, SEO, Bulk SMS, GRAPHIC(BROCHURE, LOGO, LEAFLET, etc.) DESIGNING, ON-DEMAND WORKSHOP, TRAINING PROGRAMS">
+        <meta name="description" content="Teamfreelancers, as the name indicates are a group of individuals based in India offering complete Web Design and Graphic Design services.">
+        
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <!--fonts-->
         <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
@@ -53,7 +56,7 @@
         <div class="header navbar-fixed-top">
             <div class="container">
                 <div class="logo">
-                    <a href="#"><img src="images/logo.png"></a>
+                    <a href="#"><img src="images/logo.png" alt="teamfreelancers logo"></a>
                 </div>
                 <div class="top-nav">
                     <ul>
@@ -63,7 +66,7 @@
                         <li><a href="#portfolio" class="scroll">portfolio </a></li>
                         <li><a href="#contact" class="scroll">contact</a></li>
                     </ul>
-                    <a href="#" id="pull"><img src="images/menu.png" title="menu" /></a>
+                    <a href="#" id="pull"><img src="images/menu.png" title="menu" alt="teamfreelancers menu"/></a>
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -105,7 +108,7 @@
                             <div class="banner-wrap">
                                 <div class="bannertop_box">
                                     <div class="welcome_box">
-                                        <h2>Perfection<span>in web development</span></h2>
+                                        <h1>Perfection<span>in web development</span></h1>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>
@@ -133,11 +136,14 @@
             });</script> 	
                 <div class="banner-matter">
                     <p>Contact us at <span> </span></p>
+                    <ul class="social-in-icons">
+                        <li class="facebook"><a href="https://www.facebook.com/Team-Freelancers-1736986626516930/" target="_blank"><span> </span></a></li>
+                    </ul>
                     <a href="#"> ttchld@gmail.com, info@teamfreelancers.com<br>Mobile: (+91) 9568873015</a>
                     <a href="#clients" class="scroll" style="color:#ffff00"><br><br>Check what our Clients say about us</a>
                 </div>
                 <div class='clearfix'></div>
-                <a href="#hello" class="scroll down"><img src="images/arr.png" alt="" /></a>
+                <a href="#hello" class="scroll down"><img src="images/arr.png" alt="scroller" /></a>
             </div>   
         </div>
         <!--content-->
@@ -236,7 +242,7 @@
                         </div> 
                         <div class="col-sm-4  services-grid">
                             <h4 style="background: #fff; border: 1px #990000 dashed; border-radius: 10px; padding:10px; color:#990000; background: #ffffcc">
-                                For further detail please Contact us at:<br><br> atttchld@gmail.com, info@teamfreelancers.com,<br><br> (+91) 9568873015</h4>
+                                For further detail please Contact us at:<br><br> ttchld@gmail.com, info@teamfreelancers.com,<br><br> (+91) 9568873015</h4>
                         </div>
                         <div class='clearfix'></div>
                     </div>
@@ -248,7 +254,7 @@
                     <h3>LASTEST WORKS</h3>
                     <div class="work-top">
                         <div class="work-grid ">
-                            <a href="#"><img class="img-responsive in-work" src="images/motherIndia.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/motherIndia.jpg" alt="motherIndia TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>					
                             <div class="web">
                                 <h6>Mother India global school</h6>
@@ -257,7 +263,7 @@
                             </div>
                         </div>
                         <div class="work-grid sit">
-                            <a href="#"><img class="img-responsive in-work" src="images/schoolerp.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/schoolerp.jpg" alt="schoolERP TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>School ERP</h6>
@@ -266,7 +272,7 @@
                             </div>
                         </div>
                         <div class="work-grid">
-                            <a href="#"><img class="img-responsive in-work" src="images/gasports.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/gasports.jpg" alt="gasports TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>GA Sports</h6>
@@ -275,7 +281,7 @@
                             </div>
                         </div>
                         <div class="work-grid work-grid-in sit">
-                            <a href="#"><img class="img-responsive in-work" src="images/sparkle.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/sparkle.jpg" alt="sparkle TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>Little Sparkle Academy</h6>
@@ -284,7 +290,7 @@
                             </div>
                         </div>
                         <div class="work-grid">
-                            <a href="#"><img class="img-responsive in-work" src="images/sparkleLogo.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/sparkleLogo.jpg" alt="logo sparkle TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>Little Sparkle Academy</h6>
@@ -293,7 +299,7 @@
                             </div>
                         </div>
                         <div class="work-grid sit">
-                            <a href="#"><img class="img-responsive in-work" src="images/wisdom.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/wisdom.jpg" alt="wisdom TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>Wisdom Solutions</h6>
@@ -302,19 +308,36 @@
                             </div>
                         </div>
                         <div class="work-grid in-zoom">
-                            <a href="#"><img class="img-responsive in-work" src="images/onlineguru.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/onlineguru.jpg" alt="onlinegurujee TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>Online Gurujee</h6>
-                                <p>A protfolio platform for teaching professionals</p>                              
+                                <p>A portfolio platform for teaching professionals</p>                              
                             </div>
                         </div>
                         <div class="work-grid work-grid-in in-zoom">
-                            <a href="#"><img class="img-responsive in-work" src="images/bakers.jpg" alt="" />
+                            <a href="#"><img class="img-responsive in-work" src="images/bakers.jpg" alt="bakers TeamFreelancers" />
                                 <span class="zoom-icon"></span>	</a>
                             <div class="web">
                                 <h6>Bakers Delicia</h6>
                                 <p>Dynamic Responsive website for Bakers Delicia. </p>
+
+                            </div>
+                        </div>
+                        <div class="work-grid in-zoom">
+                            <a href="#"><img class="img-responsive in-work" src="images/ph.jpg" alt="onlinegurujee TeamFreelancers" />
+                                <span class="zoom-icon"></span>	</a>
+                            <div class="web">
+                                <h6>Pighalta Himalaya</h6>
+                                <p>A dynamic portal for Hindi Weekly Newspaper published from Uttarakhand</p>                              
+                            </div>
+                        </div>
+                        <div class="work-grid work-grid-in in-zoom">
+                            <a href="#"><img class="img-responsive in-work" src="images/lbsci.jpg" alt="bakers TeamFreelancers" />
+                                <span class="zoom-icon"></span>	</a>
+                            <div class="web">
+                                <h6>Lal Bahadur Shastri Insitute</h6>
+                                <p>Admin portal for online Student Admission fee Management and Exam</p>
 
                             </div>
                         </div>
@@ -434,16 +457,17 @@
                             <small>to</small>
                             <p>info@teamfreelancers.com</p>
                             <form method="post" action="email.php">
-                                <h4>Name:</h4> <input type="text" name="txtName" required="required">
-                                <h4>Email:</h4> <input type="email" name="txtEmail" required="required">
-                                <h4>Message:</h4> <input type="text" name="txtMsg" required="required">
+                                <h4>Name:</h4> <input type="text" name="txtName" required="required" placeholder="Your Name">
+                                <h4>Contact Number:</h4> <input type="text" name="txtNumber" required="required" placeholder="Your Contact Number">
+                                <h4>Email:</h4> <input type="email" name="txtEmail" required="required" placeholder="Your email">
+                                <h4>Message:</h4> <input type="text" name="txtMsg" required="required" placeholder="Your Message">
                                 <div class="send-in">
                                     <input type="submit" value="Send" >
                                 </div>
                             </form>
                         </div>
                         <div class="col-md-6 dot-in">	
-                            <img class="img-responsive in-map" src="images/ma.png" alt="" />
+                            <img class="img-responsive in-map" src="images/ma.png" alt="map TeamFreelancers" />
                             <label class="dot"></label>
                             <div class="live">
 
@@ -471,9 +495,7 @@
                         <p class="footer-grid">&copy; 2016 copyright by <a href="#" target="_blank">teamfreelancers</a> </p>
                     </div>	 
                     <ul class="social-in-icons">
-                        <li class="facebook"><a href="#"><span> </span></a></li>
-                        <li class="twitter"><a href="#"><span> </span></a></li>
-                        <li class="inline"><a href="#"><span> </span></a></li>
+                        <li class="facebook"><a href="https://www.facebook.com/Team-Freelancers-1736986626516930/" target="_blank"><span> </span></a></li>
                     </ul>
                     <div class="clearfix"> </div>
                 </div>
@@ -495,3 +517,13 @@
         </div>
     </body>
 </html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74987470-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

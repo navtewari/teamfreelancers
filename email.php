@@ -7,6 +7,7 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= "From: " . $_REQUEST['txtName'].'<'.$_REQUEST['txtEmail'] .'>'. "\r\n"; 
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $message  = 'Name: ' . $_REQUEST['txtName'] . "<br>";
+$message .= 'Contact Number: ' . $_REQUEST['txtNumber'] . "<br>";
 $message .= 'Email: ' . $_REQUEST['txtEmail'] . "<br>";
 $message .= $_REQUEST['txtMsg'];
 
