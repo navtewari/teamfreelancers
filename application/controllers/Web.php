@@ -31,6 +31,15 @@ class Web extends CI_Controller {
         $this->load->view('templates/footer');
     }
     
+    public function training() {
+        $data['menuActive'] = 3;
+        
+        $this->load->view('templates/header');
+        $this->load->view('templates/menu',$data);
+        $this->load->view('training');
+        $this->load->view('templates/footer');
+    }
+    
     public function portfolio() {
         $data['menuActive'] = 4;
         

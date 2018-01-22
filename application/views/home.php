@@ -122,7 +122,7 @@
                 echo form_hidden('page', uri_string());
                 ?>
             </div>
-            <div class="g-recaptcha" data-sitekey="6LfMMB4UAAAAAKFXdqKUx9KeVwyKMCOB2Xuel8LO" style="transform:scale(1.16);-webkit-transform:scale(1.16);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+            <div class="g-recaptcha" data-sitekey="6LfMMB4UAAAAAKFXdqKUx9KeVwyKMCOB2Xuel8LO"></div>
             <input type="submit" value="send" class="btn btn-primary col-md-12" style='margin-top:20px;'>
             <?php echo form_close(); ?> 
         </div>
@@ -153,17 +153,7 @@
                                             <p><a href="http://www.e-collectornainital.com/" target="_blank">e-collectornainital.com</a><br>Dynamic Responsive Web Portal for District Nainital, Uttarakhand</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="glry-w3agile-grids agileits">
-                                        <div class="new-tag"><h6>New</h6></div>
-                                        <a href="#"><img src="<?PHP echo base_url() . 'assets_/portfolio/gasports.jpg'; ?>" alt="img"></a>
-                                        <div class="view-caption agileits-w3layouts">
-                                            <h4><a href="#">GA-Sports</a></h4>
-                                            <p><a href="http://gasports.in/" target="_blank">gasports</a><br>Dynamic Responsive website (ready to use as e-commerce) for GASPORTS.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                                
 
                                 <div class="item">
                                     <div class="glry-w3agile-grids agileits">
@@ -174,17 +164,7 @@
                                             <p><a href="http://auraveda.in/" target="_blank">auraveda.in</a><br>Dynamic Responsive web portal for Auraveda, Delhi.</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="glry-w3agile-grids agileits">
-                                        <div class="new-tag"><h6>New</h6></div>
-                                        <a href="#"><img src="<?PHP echo base_url() . 'assets_/portfolio/onlineguru.jpg'; ?>" alt="img"></a>
-                                        <div class="view-caption agileits-w3layouts">
-                                            <h4><a href="#">Online Gurujee</a></h4>
-                                            <p><a href="http://www.onlinegurujee.in/" target="_blank">onlinegurujee</a><br>A portfolio platform for teaching professionals</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                                
                                 <div class="item">
                                     <div class="glry-w3agile-grids agileits">
                                         <div class="new-tag"><h6>New</h6></div>
@@ -225,45 +205,7 @@
         </div>
     </div>
 </div>
-<div class="w3l-services">
-    <div class="container">
-        <h3 class="w3ls-title" style="text-align: center">Our Services</h3>
-        <div class="services-row">
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-laptop" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Application Development</h4>
-                <p style="text-align:center">Web Application</p>
-                <p style="text-align:center">Mobile Application</p>
-                <p style="text-align:center">Standalone Application</p>
-                <p style="text-align:center"><a href="<?php echo site_url('web/services') ?>">read more...</a></p>
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Web and Creative Designs</h4>
-                <p style="text-align:center">Logo and brand Identity</p>
-                <p style="text-align:center">Flex & Banner Designs</p>
-                <p style="text-align:center">Brochure, Leaflet Designs</p>
-                <p style="text-align:center"><a href="<?php echo site_url('web/services') ?>">read more...</a></p>
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-internet-explorer" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Internet Marketing</h4>
-                <p style="text-align:center">Search Engine Optimization (SEO)</p>
-                <p style="text-align:center">Social Media Optimzation (SMO)</p>
-                <p style="text-align:center">Keyword Searching</p>
-                <p style="text-align:center">bulk SMS</p>
-                <p style="text-align:center"><a href="<?php echo site_url('web/services') ?>">read more...</a></p>
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-rupee" aria-hidden="true"></i>
-                <h4 style="color:#006cff">e-Commerce Solutions</h4>
-                <p style="text-align:center">Deliver a flawless shopping experience to your customers with our customized e-commerce solutions.</p>
-                <p style="text-align:center"><a href="<?php echo site_url('web/services') ?>">read more...</a></p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
+<?php $this->load->view('templates/nutshell');?>
 <!-- //services-page -->
 
 <?php $this->load->view('templates/expertise'); ?>

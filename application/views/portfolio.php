@@ -77,19 +77,7 @@
                             
                         </div> 
                     </div>
-                </div>
-                
-                <div class="col-lg-3 col-md-6 sb-preview text-center">
-                    <div class="card h-100">
-                            <a class="sb-preview-img" href="http://gasports.in/" target='_blank'>
-                            <img class="card-img-top img-fluid" src="<?PHP echo base_url() . 'assets_/portfolio/gasports.jpg'; ?>">
-                        </a>
-                         <div class="card-block">
-                            <h4 class="card-title"><a href='http://gasports.in/' target='_blank'>GA Sports</a></h4>
-                            
-                        </div> 
-                    </div>
-                </div>
+                </div>                              
                 
                 <div class="col-lg-3 col-md-6 sb-preview text-center">
                     <div class="card h-100">
@@ -138,19 +126,7 @@
                         </div> 
                     </div>
                 </div>
-                
-                <div class="col-lg-3 col-md-6 sb-preview text-center">
-                    <div class="card h-100">
-                            <a class="sb-preview-img" href="http://www.onlinegurujee.in/" target='_blank'>
-                            <img class="card-img-top img-fluid" src="<?PHP echo base_url() . 'assets_/portfolio/onlineguru.jpg'; ?>">
-                        </a>
-                         <div class="card-block">
-                            <h4 class="card-title"><a href='http://www.onlinegurujee.in/' target='_blank'>Online Guru Jee</a></h4>
-                            
-                        </div> 
-                    </div>
-                </div>
-                
+                               
                 <div class="col-lg-3 col-md-6 sb-preview text-center">
                     <div class="card h-100">
                             <a class="sb-preview-img" href="https://www.pighaltahimalay.com/" target='_blank'>

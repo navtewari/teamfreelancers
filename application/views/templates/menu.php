@@ -64,7 +64,7 @@
                                 <li><a href="<?php echo site_url('web/services')?>">BULK SMS</a></li>
                                 <li><a href="<?php echo site_url('web/services')?>">INTERNET MARKETING, SEM, SEO</a></li>
                                 <li><a href="<?php echo site_url('web/services')?>">ON-DEMAND WORKSHOP</a></li>
-                                <li><a href="<?php echo site_url('web/services')?>">TRAINING PROGRAMS</a></li>
+                                <li><a href="<?php echo site_url('web/training')?>">TRAINING @ HOME <i class="fa fa-star fa-spin fa-fw" style="color:red;"></i></a></li>
                             </ul> <!-- .cd-dropdown-content -->
                         </nav> <!-- .cd-dropdown -->
                     </div> <!-- .cd-dropdown-wrapper -->

@@ -81,12 +81,13 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a class="collapsed pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        ON-DEMAND WORKSHOP, TRAINING PROGRAMS <span class="fa fa-angle-down fa-arrow" aria-hidden="true"></span> <i class="fa fa-angle-up fa-arrow" aria-hidden="true"></i></a>
+                                        ON-DEMAND WORKSHOP, TRAINING PROGRAMS, TRAINING @ HOME <i class="fa fa-star fa-spin fa-fw"></i> <span class="fa fa-angle-down fa-arrow" aria-hidden="true"></span> <i class="fa fa-angle-up fa-arrow" aria-hidden="true"></i></a>                                        
                                 </h4>
                             </div>
                             <div id="collapse5" class="panel-collapse collapse">
                                 <div class="panel-body" style="text-align: justify;">
                                     <p>We offer customized training to meet your specific needs. Whether it's because a change was made to your curriculum, you have specific teaching needs you wish to address,  or simply because our regular programming does not offer the topic you are looking for within your context, we can offer you custom training that is tailored to your needs.</p>
+                                    <p style="text-align:left"><a href="<?php echo site_url('web/training') ?>">read more...</a></p>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +177,7 @@
                             echo form_hidden('page', uri_string());
                             ?>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LfMMB4UAAAAAKFXdqKUx9KeVwyKMCOB2Xuel8LO" style="transform:scale(1.16);-webkit-transform:scale(1.16);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                        <div class="g-recaptcha" data-sitekey="6LfMMB4UAAAAAKFXdqKUx9KeVwyKMCOB2Xuel8LO"></div>
             <input type="submit" value="send" class="btn btn-primary col-md-12" style='margin-top:20px;'>
                         <?php echo form_close(); ?> 
                     </div>
@@ -187,40 +188,6 @@
     </div>    
 </div>
 
-<div class="w3l-services">
-    <div class="container">
-        <h3 class="w3ls-title" style="text-align: center">Our Services (in a nutshell)</h3>
-        <div class="services-row">
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-laptop" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Application Development</h4>
-                <p style="text-align:center">Web Application</p>
-                <p style="text-align:center">Mobile Application</p>
-                <p style="text-align:center">Standalone Application</p>
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Web and Creative Designs</h4>
-                <p style="text-align:center">Logo and brand Identity</p>
-                <p style="text-align:center">Flex & Banner Designs</p>
-                <p style="text-align:center">Brochure, Leaflet Designs</p>                       
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-internet-explorer" aria-hidden="true"></i>
-                <h4 style="color:#006cff">Internet Marketing</h4>
-                <p style="text-align:center">Search Engine Optimization (SEO)</p>
-                <p style="text-align:center">Social Media Optimzation (SMO)</p>
-                <p style="text-align:center">Keyword Searching</p>
-                <p style="text-align:center">bulk SMS</p>
-            </div>
-            <div class="col-md-3 services-grids">
-                <i class="fa fa-rupee" aria-hidden="true"></i>
-                <h4 style="color:#006cff">e-Commerce Solutions</h4>
-                <p style="text-align:center">Deliver a flawless shopping experience to your customers with our customized e-commerce solutions.</p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
+<?php $this->load->view('templates/nutshell');?>
 
 <?php $this->load->view('templates/expertise'); ?>
